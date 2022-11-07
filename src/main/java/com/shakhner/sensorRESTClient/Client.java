@@ -22,6 +22,8 @@ import static org.apache.tomcat.util.net.SocketEvent.TIMEOUT;
 
 public class Client {
     public static void main(String[] args) throws ParseException {
+
+        System.out.println(getRainyDaysCountForLocation("Warszawa"));
     }
 
 
